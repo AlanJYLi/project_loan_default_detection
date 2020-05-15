@@ -1,0 +1,8 @@
+title: "Boosting credit default detection: Predict how capable applicants are of repaying loans by Gradient Boosting Method"
+description: "- Jiaqi Jiang, Jiatuan Luo, Jingyu Li, Jingyu Zou, Shuyu Ding"
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
