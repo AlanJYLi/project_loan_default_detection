@@ -1,0 +1,100 @@
+bureau_balance.csv
+bureaubalance_aggmethod={'MONTHS_BALANCE':['min', 'max', 'count', 'mean'],
+                         'STATUS_0':['mean'],
+                         'STATUS_1':['mean'],
+                         'STATUS_2':['mean'],
+                         'STATUS_3':['mean'],
+                         'STATUS_4':['mean'],
+                         'STATUS_5':['mean'],
+                         'STATUS_C':['mean'],
+                         'STATUS_X':['mean']}
+
+
+Merged dataset of bureau.csv and aggregated bureau_balance.csv
+bureaufull_aggmethod_num = {'DAYS_CREDIT': ['min', 'max', 'mean'],
+                            'DAYS_CREDIT_ENDDATE': ['min', 'max', 'mean'],
+                            'DAYS_CREDIT_UPDATE': ['min', 'max', 'mean'],
+                            'CREDIT_DAY_OVERDUE': ['min', 'max', 'mean'],
+                            'AMT_CREDIT_MAX_OVERDUE': ['min', 'max', 'mean'],
+                            'AMT_CREDIT_SUM': ['min', 'max', 'mean','sum'],
+                            'AMT_CREDIT_SUM_DEBT': ['min', 'max', 'mean','sum'],
+                            'AMT_CREDIT_SUM_OVERDUE': ['min', 'max', 'mean','sum'],
+                            'AMT_CREDIT_SUM_LIMIT': ['min', 'max', 'mean','sum'],
+                            'AMT_ANNUITY': ['min', 'max', 'mean','sum'],
+                            'CNT_CREDIT_PROLONG': ['min', 'max', 'mean'],
+                            'MONTHS_BALANCE_MIN': ['min'],
+                            'MONTHS_BALANCE_MAX': ['max'],
+                            'MONTHS_BALANCE_COUNT': ['mean', 'sum'],
+                            'MONTHS_BALANCE_MEAN': ['mean', 'sum']}
+
+All other binary variables: aggregated by 'mean'
+
+
+previous_application.csv
+numerical variables:
+col_num=['AMT_ANNUITY','AMT_APPLICATION','AMT_CREDIT','AMT_DOWN_PAYMENT','AMT_GOODS_PRICE','HOUR_APPR_PROCESS_START','RATE_DOWN_PAYMENT','RATE_INTEREST_PRIMARY','RATE_INTEREST_PRIVILEGED','DAYS_DECISION','SELLERPLACE_AREA','CNT_PAYMENT','DAYS_FIRST_DRAWING','DAYS_FIRST_DUE','DAYS_LAST_DUE_1ST_VERSION', 'DAYS_LAST_DUE','DAYS_TERMINATION','AMT_ACCEPT_RATE']
+
+prevapp_aggmethod_num = {n:['min','max','mean'] for n in col_num}
+
+All other binary variables: aggregated by 'mean'
+
+
+POS_CASH_balance.csv
+pos_aggmethod={'MONTHS_BALANCE':['min', 'max', 'count', 'mean'],
+               'CNT_INSTALMENT':['min', 'max', 'mean'],
+               'CNT_INSTALMENT_FUTURE':['min', 'max', 'mean'],
+               'SK_DPD':['min', 'max', 'mean','sum'],
+               'SK_DPD_DEF':['min', 'max', 'mean','sum'],
+               'NAME_CONTRACT_STATUS_Active':['mean'],
+               'NAME_CONTRACT_STATUS_Amortized debt':['mean'],
+               'NAME_CONTRACT_STATUS_Approved':['mean'],
+               'NAME_CONTRACT_STATUS_Canceled':['mean'],
+               'NAME_CONTRACT_STATUS_Completed':['mean'],
+               'NAME_CONTRACT_STATUS_Demand':['mean'],
+               'NAME_CONTRACT_STATUS_Returned to the store':['mean'],
+               'NAME_CONTRACT_STATUS_Signed':['mean'],
+               'NAME_CONTRACT_STATUS_XNA':['mean']}
+
+
+credit_card_balance.csv
+credit_aggmethod={'MONTHS_BALANCE':['min', 'max', 'count', 'mean'],
+                  'AMT_BALANCE':['min', 'max', 'mean'],
+                  'AMT_CREDIT_LIMIT_ACTUAL':['min', 'max', 'mean'],
+                  'AMT_DRAWINGS_ATM_CURRENT':['min', 'max', 'mean'],
+                  'AMT_DRAWINGS_CURRENT':['min', 'max', 'mean'],
+                  'AMT_DRAWINGS_OTHER_CURRENT':['min', 'max', 'mean'],
+                  'AMT_DRAWINGS_POS_CURRENT':['min', 'max', 'mean'],
+                  'AMT_INST_MIN_REGULARITY':['min', 'max', 'mean'],
+                  'AMT_PAYMENT_CURRENT':['min', 'max', 'mean'],
+                  'AMT_PAYMENT_TOTAL_CURRENT':['min', 'max', 'mean'],
+                  'AMT_RECEIVABLE_PRINCIPAL':['min', 'max', 'mean'],
+                  'AMT_RECIVABLE':['min', 'max', 'mean'],
+                  'AMT_TOTAL_RECEIVABLE':['min', 'max', 'mean'],
+                  'CNT_DRAWINGS_ATM_CURRENT':['min', 'max', 'mean'],
+                  'CNT_DRAWINGS_CURRENT':['min', 'max', 'mean'],
+                  'CNT_DRAWINGS_OTHER_CURRENT':['min', 'max', 'mean'],
+                  'CNT_DRAWINGS_POS_CURRENT':['min', 'max', 'mean'],
+                  'CNT_INSTALMENT_MATURE_CUM':['min', 'max', 'mean'],
+                  'SK_DPD':['min', 'max', 'mean','sum'],
+                  'SK_DPD_DEF':['min', 'max', 'mean','sum'],
+                  'NAME_CONTRACT_STATUS_Active':['mean'],
+                  'NAME_CONTRACT_STATUS_Approved':['mean'],
+                  'NAME_CONTRACT_STATUS_Completed':['mean'],
+                  'NAME_CONTRACT_STATUS_Demand':['mean'],
+                  'NAME_CONTRACT_STATUS_Refused':['mean'],
+                  'NAME_CONTRACT_STATUS_Sent proposal':['mean'],
+                  'NAME_CONTRACT_STATUS_Signed':['mean']}
+
+
+installments_payments.csv
+repay_aggmethod = {'DAYS_INSTALMENT':['min', 'max', 'mean'],
+                   'DAYS_ENTRY_PAYMENT':['min', 'max', 'mean'],
+                   'AMT_INSTALMENT':['min', 'max', 'mean', 'sum'],
+                   'AMT_PAYMENT':['min', 'max', 'mean','sum'],
+                   'PAYMENT_PERCENT':['min', 'max', 'mean'],
+                   'PAYMENT_GAP':['min', 'max', 'mean','sum'],
+                   'PAYMENT_TIME':['min', 'max', 'mean','sum']}
+
+
+
+
