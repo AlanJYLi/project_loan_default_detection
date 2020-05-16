@@ -22,7 +22,7 @@ According to the feature importance from Gradient Boosting model, we summarize s
 ## 4. Project Setup
 
 - [Dataset](https://www.kaggle.com/c/home-credit-default-risk/data)
-- Code
+- Code  
 | Notebook                             | Function                           |
 | ------------------------------------ | ---------------------------------- |
 | data_preprocessing.ipynb             | data preparation                   |
