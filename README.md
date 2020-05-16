@@ -23,9 +23,10 @@ According to the feature importance from Gradient Boosting model, we summarize s
 
 - [Dataset](https://www.kaggle.com/c/home-credit-default-risk/data)
 - Code  
-| Notebook                             | Function                           |
-| ------------------------------------ | ---------------------------------- |
-| data_preprocessing.ipynb             | data preparation                   |
-| baseline_model_implementation.ipynb  | baseline models                    |
-| lightgbm_bayesoptimal.ipynb          | lightGBM and Bayesian Optimization |
-| selected_model_evaluation.ipynb      | evaluating the final model         |
+
+| Notebook | Function |
+| --- | --- |
+| data_preprocessing.ipynb | data preparation |
+| baseline_model_implementation.ipynb | baseline models |
+| lightgbm_bayesoptimal.ipynb | lightGBM and Bayesian Optimization |
+| selected_model_evaluation.ipynb | evaluating the final model |
