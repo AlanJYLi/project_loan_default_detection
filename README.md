@@ -15,9 +15,9 @@ Our project focuses on using supervised and unsupervised machine learning techni
 ## 3. Project Findings
 
 According to the feature importance from Gradient Boosting model, we summarize several groups of factors that are valid for default prediction.
-- **Financial pressure of repaying**: in accordance with our daily life experience, how difficult to repay the loan is one of the decisive factors influencing whether or not the client will default. It’s related to the total amount of the credit, how much is the annuity, how long it will take to repay the loan in full and amount and duration of other loans the clients have.
-- **Repaying capability** : the second group of factors are the variables related with the client’s financial capability. The features we got in this project are some indirect indicators that reflect the repaying capability, like client’s age, employment and previous repay behaviors.
-- **History of loan applications**: we also revealed that the duration from previous loan application to current application is also important in default prediction.
+- **Repaying pressure from the loans**: in accordance with our daily life experience, how difficult to repay the loan is one of the decisive factors influencing whether or not the client will default. It’s related to the total amount of the credit, how much is the annuity, how long it will take to repay the loan in full and amount and duration of other loans the clients have.
+- **Clients' repaying capability** : the second group of factors are the variables related with the client’s financial capability. The features we got in this project are some indirect indicators that reflect the repaying capability, like client’s age, employment and previous repay behaviors.
+- **Clients' history of loan applications**: we also revealed that the duration from previous loan application to current application is also important in default prediction.
 
 ## 4. Project Setup
 
